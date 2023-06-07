@@ -1,4 +1,4 @@
- function highlight() 
+ function highlight() {
  //Write your code here
 	var bold=document.getElementsByTagName("strong");
 	for(let i=0;i<bold.length;i++){
@@ -9,4 +9,6 @@ function return_normal() {
     //Write your code here
 	var bold=document.getElementsByTagName("strong");
      for(let i=0;i<bold.length;i++){
-		 bold[i].classList.remove("highlight");}
+		 bold[i].classList.remove("highlight");
+	 }
+}
