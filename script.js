@@ -1,3 +1,4 @@
+ function highlight() 
  //Write your code here
 	var bold=document.getElementsByTagName("strong");
 	for(let i=0;i<bold.length;i++){
